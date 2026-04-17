@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 40px;
     font-family: sans-serif;
-    background: #fafafa;
+    background: #7c7c7c;
   }
   
 
@@ -25,10 +25,10 @@ body {
   }
   
 .box {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     
     
@@ -39,13 +39,13 @@ body {
   
   
 .box1 { grid-area: logo; background: gold; }
-.box2 { grid-area: menu; background: rgb(131, 213, 240); }
+.box2 { grid-area: menu; background: rgb(0, 130, 173); }
 .box3 { grid-area: hero; background: rgb(248, 63, 63); min-height: 180px; }
-.box4 { grid-area: karta1; background: rgb(55, 145, 55); }
-.box5 { grid-area: karta2; background: rgb(51, 131, 51); }
-.box6 { grid-area: karta3; background: rgb(39, 116, 39); }
-.box7 { grid-area: sidebar; background: rgb(218, 89, 218); }
-.box8 { grid-area: footer; background: rgb(129, 129, 129); }
+.box4 { grid-area: karta1; background: rgb(0, 224, 0); }
+.box5 { grid-area: karta2; background: rgb(6, 240, 6); }
+.box6 { grid-area: karta3; background: rgb(8, 236, 8); }
+.box7 { grid-area: sidebar; background: rgb(196, 0, 196); }
+.box8 { grid-area: footer; background: rgb(199, 199, 199); }
   
  
 @media (min-width: 900px) {
